@@ -1,0 +1,54 @@
+.profile-main {
+    padding-top: 50px;
+}
+.header-profile {
+    font-size: 26px;
+    border-bottom: solid #ccc 1px;
+}
+.profile-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.img-profile {
+
+}
+.img-profile-dashboard {
+    width: 230px;
+    height: 230px;
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+.helper-edit {
+
+}
+.helper-edit .values-edit {
+    font-size: 20px;
+}
+.values-edit label {
+    font-size: 14px;
+    color: #adadad;
+    margin: 0;
+}
+.edit-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.edit-btn button {
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    background: #3a77ff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.edit-btn button:hover {
+    background: #0955ff;
+}

@@ -1,0 +1,17 @@
+.profile-edit-form {
+
+}
+.profile-edit-form-img {
+    display: flex;
+    flex-direction: column;
+}
+.profile-edit-form-img input {
+    width: 230px;
+    padding-top: 10px;
+}
+.profile-edit-data {
+    width: 35%;
+}
+.profile-edit-data .values-edit {
+    padding-bottom: 20px;
+}

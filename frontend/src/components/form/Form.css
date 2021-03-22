@@ -1,0 +1,26 @@
+.main-form {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px #0003;
+}
+
+.olx-logo {
+    width: 160px;
+}
+
+.main-form .input-height {
+    height: 50px;
+}
+
+.main-form a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.main-form p {
+    font-size: 1.1rem;
+}
+
+small.text-muted {
+    font-size: 0.7rem;
+}

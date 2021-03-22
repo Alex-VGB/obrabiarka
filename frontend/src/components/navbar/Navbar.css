@@ -1,0 +1,75 @@
+.navbar-olx .bg-header {
+    background: #00000085;
+}
+
+.navbar-olx ul li {
+    list-style: none;
+}
+
+.navbar-olx ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.navbar-olx ul li a:hover {
+    color: var(--mainPurple);
+}
+
+
+.olx-logo-small {
+    width: 200px;
+    filter: invert(1);
+}
+
+.nav-small-screen {
+    height: 86vh;
+    box-shadow: 0 10px 10px #0004;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.nav-small-screen > ul > li {
+    padding: 10px 0 10px 15px;
+    width: 100%;
+}
+
+
+.nav-small-screen > ul > li > a {
+    font-size: 1rem;
+}
+
+.nav-small-screen > ul > li:hover {
+    background-color: var(--backgroundGrey);
+}
+
+.navbar-toggler {
+    outline: none!important;
+}
+.list-menu li i{
+    color: #3a77ff;
+}
+
+@media (min-width: 768px) {
+    .olx-logo-small {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 550px) {
+    .olx-logo-small {
+        width: 100px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #333;
+        border-color: #fff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        filter: invert(1);
+    }
+    .nav-small-screen {
+    background: #333;
+    }
+    .nav-small-screen > ul > li:hover {
+        background-color: #737373;
+    }
+}

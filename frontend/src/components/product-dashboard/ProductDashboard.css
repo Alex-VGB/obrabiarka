@@ -1,0 +1,22 @@
+.img-product-dashboard {
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icon-dashboard {
+    width: 80px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.icon-dashboard:hover {
+    color: #3a77ff;
+}

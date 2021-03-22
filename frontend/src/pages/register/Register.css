@@ -1,0 +1,9 @@
+.form-register {
+    background-color: rgb(249, 249, 249);
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+.form-register small{
+    color: #333;
+    font-weight: 400;
+}

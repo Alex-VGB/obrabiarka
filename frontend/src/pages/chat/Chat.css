@@ -1,0 +1,72 @@
+.chat-container {
+    margin-bottom: 650px;
+}
+
+.img-product-chat {
+    width: 6rem;
+    height: 6rem;
+}
+
+.product-chat-container {
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.8rem;
+}
+
+.product-chat-container p {
+    font-weight: 600;
+}
+
+.product-chat-container:hover {
+    background-color: var(--backgroundGrey);
+}
+
+.fa-circle {
+    font-size: 0.6rem;
+}
+
+.input-chat {
+    position: relative;
+}
+
+.input-chat input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-top: 1px solid #ddd; 
+    text-indent: 15px;
+}
+
+.fa-paper-plane {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.chat-field {
+    background-color: var(--backgroundGrey);
+    border-top: 1px solid #ddd;
+}
+
+.chat-msg {
+    background-color: #e5e5e5;
+    max-width: 50%;
+    width: fit-content;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    clear: both;
+}
+
+.chat-msg > p {
+    margin-top: 10px;
+}
+
+.me {
+    background-color: var(--mainPurple);
+    color: #fff;
+    float: right;
+}
